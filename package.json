@@ -1,0 +1,10 @@
+{
+  "name": "grunt-unit-autocompletion-zsh",
+  "version": "0.0.1",
+  "description": "Custom thing for grunt",
+  "scripts": {
+    "postinstall": "DEST=$HOME/.grunt-unit-autocompletion-zsh; mkdir -p $DEST && ln -fs \"$PWD/grunt-unit-autocomplete.zsh\" $DEST/grunt-unit-autocomplete.zsh && echo source $DEST/grunt-unit-autocomplete.zsh >> $HOME/.zshrc && echo \"Please restart your zsh.\n\n\""
+  },
+  "private": true,
+  "homepage": "https://github.com/umaar/grunt-unit-autocompletion-zsh"
+}
